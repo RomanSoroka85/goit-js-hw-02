@@ -3,11 +3,11 @@ const findLongestWord = function (string) {
   let findLongestWord = splitMessage[0];
 
   for (let i = 1; i < splitMessage.length; i += 1) {
-    if (LongestWord.length < splitMessage[i].length) {
-      LongestWord = splitMessage[i];
+    if (findLongestWord.length < splitMessage[i].length) {
+         findLongestWord = splitMessage[i];
     }
   }
-  return LongestWord;
+  return findLongestWord;
 };
 
 console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));

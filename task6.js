@@ -21,3 +21,4 @@ if (numbers.length > 0) {
     console.log(total);
   }
 }
+console.log(`Общая сумма чисел равна ${total}`);
